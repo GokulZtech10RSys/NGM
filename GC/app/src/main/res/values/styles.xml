@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- getstart styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<!-- login styles -->
+	-<style tools:ignore="MissingTranslation" name="login">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+
+</style>
+
+	<!--
+	register_form styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+	-->
+
+	<!-- home_page styles -->
+
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="home_page">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+</style>
+
+	<!-- scrap_rates styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+
+</style>
+-->
+
+
+	<!-- prefile styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+</style>
+
+ -->
+
+	<!-- drop_your_trash styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+</style>
+	-->
+
+	<!-- trash_box styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+</style>
+-->
+
+	<!-- setting styles
+	-<style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+	<item name="colorAccent">@color/colorAccent</item>
+</style>
+ -->
+
+
+
+</resources>

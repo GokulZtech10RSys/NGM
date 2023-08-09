@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- getstart strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="garbage_waste_string">Garbage waste</string>
+	<string name="get_start_string">Get Start</string>
+
+	<!-- login strings -->
+	<string name="login_ek3_string">Login</string>
+	<string name="email_string">email</string>
+	<string name="password_string">password</string>
+	<string name="login_now_string">Login Now</string>
+	<string name="don_t_have_an_account_signup_string">Dont have an account/Signup</string>
+	<string name="forget_password_string">forget password</string>
+
+
+	<!-- register_form strings -->
+	<string name="phone_number_string">Phone Number</string>
+	<string name="new_password_string">New Password</string>
+	<string name="confirm_password_string">Confirm Password</string>
+	<string name="register_string">Register</string>
+	<string name="register_ek1_string">Register</string>
+	<string name="already_have_an_account_login_string">Already Have an Account?Login</string>
+	<string name="name_string">Name</string>
+
+
+	<!-- home_page strings -->
+
+	<string name="hello_user_string">Hello User</string>
+	<string name="any_complaints_string">Any Complaints</string>
+	<string name="drop_your_trash_string">Drop Your Trash</string>
+	<string name="recycling_videos_string">Recycling Videos</string>
+	<string name="trash_box_string">Trash Box</string>
+	<string name="scrap_rate_string">Scrap Rate</string>
+	<string name="your_recycle_orders_string">Your Recycle Orders</string>
+
+
+	<!-- scrap_rates strings -->
+	<string name="cardboard_string">Cardboard</string>
+	<string name="scrap_rates_ek3_string">Scrap Rates</string>
+	<string name="iron_string">Iron</string>
+	<string name="paper_string">Paper</string>
+	<string name="aluminium_string">Aluminium</string>
+	<string name="brass_string">Brass</string>
+	<string name="copper_string">Copper</string>
+	<string name="e_waste_string">E-Waste</string>
+	<string name="note___books_string">Note &amp; Books</string>
+	<string name="plastic_string">Plastic</string>
+	<string name="battery_string">Battery</string>
+	<string name="computer_ups_string">Computer UPS</string>
+	<string name="ac_1_ton__string">AC(1 Ton)</string>
+
+	<!-- prefile strings -->
+	<string name="user_name_string">User Name</string>
+	<string name="_1234_string">1234</string>
+	<string name="__919123456789_string">+919123456789</string>
+	<string name="user1234_gmail_com_string">user1234@gmail.com</string>
+	<string name="chennai_string">Chennai</string>
+	<string name="profile_string">Profile</string>
+
+
+	<!-- drop_your_trash strings -->
+	<string name="_4_archieve_eco_tech_private_limited_string">4.Archieve Eco Tech Private Limited</string>
+	<string name="recycling_center_in_chennai__tamil_nadu_address__14__velachery_rd__dhadeswaram_nagar__velachery__chennai__tamil_nadu_600042_phone__078455_61376_string">Recycling center in Chennai, Tamil NaduAddress: 14, Velachery Rd, Dhadeswaram Nagar, Velachery, Chennai, Tamil Nadu 600042Phone: 078455 61376</string>
+	<string name="drop_your_trash_ek3_string">Drop Your Trash</string>
+	<string name="_1_attai_company_string">1.Attai Company</string>
+	<string name="recycling_center_in_chennai__tamil_nadu_string">Recycling center in Chennai, Tamil Nadu</string>
+	-
+	<string name="address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058_string">
+<u>Address: 28, Deva Raja St, Tambaram West, Tambaram, Chennai, Tamil Nadu 600045.Phone: 094441 33058</u>
+</string>
+	<string name="_2_global_waste_recyclers_limited_string">2.Global Waste Recyclers Limited</string>
+	<string name="recycling_center_in_chennai__tamil_nadu_address__saravana_complex__iiird_floor__200__peters_road__royapettah__chennai__tamil_nadu_600014_phone__044_2841_3401_string">Recycling center in Chennai, Tamil NaduAddress: Saravana Complex, IIIrd Floor, 200, Peters Road, Royapettah, Chennai, Tamil Nadu 600014Phone: 044 2841 3401</string>
+	<string name="_3_sree_e_waste_recycling_in_chennai_string">3.Sree E Waste Recycling in Chennai</string>
+	<string name="bottle___can_redemption_center_in_chennai__address__no__5__11th_st__ashtalakshmi_nagar__vanagaram__chennai__tamil_nadu_600116_phone__073581_82559_string">Bottle &amp; can redemption center in Chennai.Address: No. 5, 11th St, Ashtalakshmi Nagar, Vanagaram, Chennai, Tamil Nadu 600116Phone: 073581 82559</string>
+
+
+	<!-- trash_box strings -->
+	<string name="trash_box_ek3_string">Trash Box</string>
+	<string name="a_bin_that_holds_rubbish_until_it_is_collected__string">A bin that holds rubbish until it is collected.</string>
+
+
+	<!-- setting strings -->
+	<string name="user_name_1234_string">User Name 1234</string>
+	<string name="help_string">Help</string>
+	<string name="send_feedback_string">Send feedback</string>
+	<string name="logout_string">Logout</string>
+    <string name="title_activity_fotgot_password">fotgot_password_Activity</string>
+
+
+</resources>

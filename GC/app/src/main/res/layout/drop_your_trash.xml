@@ -1,0 +1,223 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		drop_your_trash
+	 *	@date 		Monday 07th of August 2023 04:56:25 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/drop_your_trash" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_drop_your_trash_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__drop_your_trash_ek2"
+					android:background="@drawable/_bg__scrap_rates_ek2_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="450dp"
+					android:layout_height="751dp" />
+
+				<View
+					android:id="@+id/rectangle_7"
+					android:layout_width="480dp"
+					android:layout_height="630dp"
+					android:layout_marginStart="-16dp"
+					android:layout_marginTop="50dp"
+					android:background="@drawable/rectangle_7_shape" />
+
+				<TextView android:id="@+id/_4_archieve_eco_tech_private_limited"
+					android:textSize="20sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="468dp"
+					android:layout_width="330dp"
+					android:layout_height="40dp"
+					android:text="@string/_4_archieve_eco_tech_private_limited_string"
+					 />
+
+				<TextView android:id="@+id/recycling_center_in_chennai__tamil_nadu_address__14__velachery_rd__dhadeswaram_nagar__velachery__chennai__tamil_nadu_600042_phone__078455_61376"
+					android:textSize="16sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="371dp"
+					android:layout_width="345dp"
+					android:layout_height="91dp"
+					android:text="@string/recycling_center_in_chennai__tamil_nadu_address__14__velachery_rd__dhadeswaram_nagar__velachery__chennai__tamil_nadu_600042_phone__078455_61376_string"
+					 />
+
+				<ImageView
+					android:id="@+id/images_removebg_preview_1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginStart="354dp"
+					android:layout_marginTop="6dp"
+					android:contentDescription="images_removebg_preview_1"
+					android:src="@drawable/images_removebg_preview_1" />
+
+				<ImageView android:id="@+id/arrow_1"
+					android:src="@drawable/arrow_1"
+					android:contentDescription="arrow_1"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_width="28dp"
+					android:layout_height="38dp" />
+
+				<TextView android:id="@+id/drop_your_trash_ek3"
+					android:textSize="32sp"
+					android:textColor="@color/rectangle_7_color"
+					android:layout_marginLeft="88dp"
+					android:layout_marginTop="6dp"
+					android:layout_width="253dp"
+					android:layout_height="63dp"
+					android:text="@string/drop_your_trash_ek3_string"
+					 />
+
+				<ImageView
+					android:id="@+id/home_outline_removebg_preview_1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginStart="9dp"
+					android:layout_marginTop="685dp"
+					android:contentDescription="home_outline_removebg_preview_1"
+					android:src="@drawable/home_outline_removebg_preview_1" />
+
+				<ImageView android:id="@+id/settings_2_outline_removebg_preview_1"
+					android:src="@drawable/settings_2_outline_removebg_preview_1"
+					android:contentDescription="settings_2_outline_removebg_preview_1"
+					android:layout_marginStart="357dp"
+					android:layout_marginTop="685dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+
+				<View
+					android:id="@+id/ellipse_2"
+					android:layout_width="68dp"
+					android:layout_height="66dp"
+					android:layout_marginStart="170dp"
+					android:layout_marginTop="645dp"
+					android:background="@drawable/ellipse_2_shape" />
+
+				<ImageView android:id="@+id/people_outline_removebg_preview_1"
+					android:src="@drawable/people_outline_removebg_preview_1"
+					android:contentDescription="people_outline_removebg_preview_1"
+					android:layout_marginStart="180dp"
+					android:layout_marginTop="650dp"
+					android:layout_width="50dp"
+					android:layout_height="50dp" />
+
+
+				<ImageView
+					android:id="@+id/search_outline_removebg_preview_1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginStart="99dp"
+					android:layout_marginTop="685dp"
+					android:contentDescription="search_outline_removebg_preview_1"
+					android:src="@drawable/search_outline_removebg_preview_1" />
+
+				<ImageView android:id="@+id/grid_outline_removebg_preview_1"
+					android:src="@drawable/grid_outline_removebg_preview_1"
+					android:contentDescription="grid_outline_removebg_preview_1"
+					android:layout_marginStart="280dp"
+					android:layout_marginTop="685dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+				<TextView android:id="@+id/_1_attai_company"
+					android:textSize="20sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="84dp"
+					android:layout_width="162dp"
+					android:layout_height="40dp"
+					android:text="@string/_1_attai_company_string"
+					 />
+
+				<TextView android:id="@+id/recycling_center_in_chennai__tamil_nadu"
+					android:textSize="16sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="106dp"
+					android:layout_width="295dp"
+					android:layout_height="31dp"
+					android:text="@string/recycling_center_in_chennai__tamil_nadu_string"
+					 />
+
+				<TextView android:id="@+id/address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058"
+					android:textSize="16sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="127dp"
+					android:layout_width="312dp"
+					android:layout_height="71dp"
+					android:text="@string/address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058_string"
+					 />
+
+				<TextView android:id="@+id/_2_global_waste_recyclers_limited"
+					android:textSize="20sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="203dp"
+					android:layout_width="307dp"
+					android:layout_height="40dp"
+					android:text="@string/_2_global_waste_recyclers_limited_string"
+					 />
+
+				<TextView android:id="@+id/recycling_center_in_chennai__tamil_nadu_address__saravana_complex__iiird_floor__200__peters_road__royapettah__chennai__tamil_nadu_600014_phone__044_2841_3401"
+					android:textSize="16sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="228dp"
+					android:layout_width="322dp"
+					android:layout_height="111dp"
+					android:text="@string/recycling_center_in_chennai__tamil_nadu_address__saravana_complex__iiird_floor__200__peters_road__royapettah__chennai__tamil_nadu_600014_phone__044_2841_3401_string"
+					 />
+
+				<TextView android:id="@+id/_3_sree_e_waste_recycling_in_chennai"
+					android:textSize="20sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="343dp"
+					android:layout_width="330dp"
+					android:layout_height="40dp"
+					android:text="@string/_3_sree_e_waste_recycling_in_chennai_string"
+					 />
+
+				<TextView android:id="@+id/bottle___can_redemption_center_in_chennai__address__no__5__11th_st__ashtalakshmi_nagar__vanagaram__chennai__tamil_nadu_600116_phone__073581_82559"
+					android:textSize="16sp"
+					android:textColor="@color/_4_archieve_eco_tech_private_limited_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="496dp"
+					android:layout_width="316dp"
+					android:layout_height="91dp"
+					android:text="@string/bottle___can_redemption_center_in_chennai__address__no__5__11th_st__ashtalakshmi_nagar__vanagaram__chennai__tamil_nadu_600116_phone__073581_82559_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
