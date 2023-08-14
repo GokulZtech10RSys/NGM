@@ -1,30 +1,23 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
-
-	<ScrollView android:id="@+id/getstart" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent" >
-
-
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content"
-			android:background="@color/_bg__getstart_ek2_color">
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
 
 
 
-			<RelativeLayout android:id="@+id/page_getstart_ek1"
+<RelativeLayout android:id="@+id/page_getstart_ek1"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:outlineSpotShadowColor="@color/black"
-				>
+	           tools:ignore="MissingConstraints">
 
 				<View
 					android:id="@+id/_bg__getstart_ek2"
-					android:layout_width="450dp"
-					android:layout_height="751dp"
+					android:layout_width="411dp"
+					android:layout_height="731dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:background="@drawable/_bg__scrap_rates_ek2_shape" />
@@ -33,34 +26,33 @@
 					android:id="@+id/png_transparent_rubbish_bins_waste_paper_baskets_bin_bag_garbage_miscellaneous_waste_garbage_truck_removebg_preview_1"
 					android:layout_width="359dp"
 					android:layout_height="209dp"
-					android:layout_marginStart="25dp"
+					android:layout_marginStart="5dp"
 					android:layout_marginTop="139dp"
 					android:contentDescription="png_transparent_rubbish_bins_waste_paper_baskets_bin_bag_garbage_miscellaneous_waste_garbage_truck_removebg_preview_1"
 					android:src="@drawable/png_transparent_rubbish_bins_waste_paper_baskets_bin_bag_garbage_miscellaneous_waste_garbage_truck_removebg_preview_1" />
 
-				<TextView android:id="@+id/garbage_waste"
-					android:textStyle="bold"
-					android:textSize="15dp"
-					android:layout_marginLeft="76dp"
-					android:layout_marginTop="394dp"
-					android:layout_width="277dp"
-					android:layout_height="61dp"
-					android:text="Nandivaram Guduvancheri Garbage Bank "
-					 />
+	<TextView
+		android:id="@+id/garbage_waste"
+		android:layout_width="314dp"
+		android:layout_height="94dp"
+		android:layout_marginLeft="26dp"
+		android:layout_marginTop="334dp"
+		android:gravity="center"
+		android:textColor="@color/white"
+		android:text="நந்திவரம் கூடுவாஞ்சேரி குப்பை தொட்டி "
+		android:textSize="20dp"
+		android:textStyle="bold" />
 
 				<Button
 					android:id="@+id/get_start_btn"
 					android:layout_width="291dp"
 					android:layout_height="wrap_content"
-					android:layout_marginLeft="80dp"
-					android:layout_marginTop="455dp"
-					android:background="@drawable/_188022_removebg_preview_1"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="430dp"
 					android:text="Explore"
 					android:textColor="@color/get_start_color"
 					android:textSize="32sp" />
 
 			</RelativeLayout>
-		</RelativeLayout>
 
-	</ScrollView>
-</HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

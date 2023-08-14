@@ -15,7 +15,9 @@
 	 */
 package com.example.gc;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -34,26 +36,24 @@ public class prefile_activity extends Activity {
 	private ImageView _455705_removebg_preview_1;
 	private ImageView location_vector_icon_removebg_preview_1;
 	private TextView user_name;
-	private TextView _1234;
+
 	private TextView __919123456789;
 	private TextView user1234_gmail_com;
 	private TextView chennai;
-	private ImageView home_outline_removebg_preview_1;
-	private ImageView settings_2_outline_removebg_preview_1;
-	private View ellipse_2;
-	private ImageView people_outline_removebg_preview_1;
-	private ImageView search_outline_removebg_preview_1;
-	private ImageView grid_outline_removebg_preview_1;
+	private ImageView home;
+	private ImageView settings;
+	private ImageView people;
+	private ImageView grid;
 	private TextView profile;
 
+	@SuppressLint("MissingInflatedId")
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.prefile);
 
-		
-		_bg__prefile_ek2 = (View) findViewById(R.id._bg__prefile_ek2);
+
 		arrow_1 = (ImageView) findViewById(R.id.arrow_1);
 		rectangle_7 = (View) findViewById(R.id.rectangle_7);
 		images_removebg_preview_1 = (ImageView) findViewById(R.id.images_removebg_preview_1);
@@ -61,20 +61,44 @@ public class prefile_activity extends Activity {
 		_455705_removebg_preview_1 = (ImageView) findViewById(R.id._455705_removebg_preview_1);
 		location_vector_icon_removebg_preview_1 = (ImageView) findViewById(R.id.location_vector_icon_removebg_preview_1);
 		user_name = (TextView) findViewById(R.id.user_name);
-		_1234 = (TextView) findViewById(R.id._1234);
 		__919123456789 = (TextView) findViewById(R.id.__919123456789);
 		user1234_gmail_com = (TextView) findViewById(R.id.user1234_gmail_com);
 		chennai = (TextView) findViewById(R.id.chennai);
-		home_outline_removebg_preview_1 = (ImageView) findViewById(R.id.home_outline_removebg_preview_1);
-		settings_2_outline_removebg_preview_1 = (ImageView) findViewById(R.id.settings_2_outline_removebg_preview_1);
-		ellipse_2 = (View) findViewById(R.id.ellipse_2);
-		people_outline_removebg_preview_1 = (ImageView) findViewById(R.id.people_outline_removebg_preview_1);
-		search_outline_removebg_preview_1 = (ImageView) findViewById(R.id.search_outline_removebg_preview_1);
-		grid_outline_removebg_preview_1 = (ImageView) findViewById(R.id.grid_outline_removebg_preview_1);
+
+		home = (ImageView) findViewById(R.id.home);
+		settings = (ImageView) findViewById(R.id.settings);
+		people = (ImageView) findViewById(R.id.people);
+		grid = (ImageView) findViewById(R.id.grid);
+
 		profile = (TextView) findViewById(R.id.profile);
 	
 		
 		//custom code goes here
+
+
+		home.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(prefile_activity.this, home_page_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
+
+		grid.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(prefile_activity.this, scrap_rates_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
+
+		settings.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(prefile_activity.this, setting_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
 	
 	}
 }

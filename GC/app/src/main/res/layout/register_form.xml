@@ -1,27 +1,8 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		register_form
-	 *	@date 		Thursday 03rd of August 2023 04:53:24 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/register_form" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent" >
-
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" >
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
 
 
 
@@ -30,160 +11,93 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+				tools:ignore="MissingConstraints">
 
 				<View
 					android:id="@+id/_bg__home_page_ek2"
-					android:layout_width="450dp"
-					android:layout_height="751dp"
+					android:layout_width="411dp"
+					android:layout_height="731dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:background="@drawable/_bg__home_page_ek2_shape" />
 
-				<View   android:id="@+id/rectangle_1"
-					android:background="@drawable/rectangle_1_shape"
-					 android:layout_marginStart="75dp"
-					android:layout_marginTop="208dp"
-					android:layout_width="266dp"
-					android:layout_height="50dp" />
 
-				<View   android:id="@+id/rectangle_2"
-					android:background="@drawable/rectangle_2_shape"
-					 android:layout_marginStart="75dp"
-					android:layout_marginTop="280dp"
-					android:layout_width="266dp"
-					android:layout_height="50dp" />
+				<EditText
+					android:id="@+id/emailEditText"
+					android:layout_width="274dp"
+					android:layout_height="45dp"
+					android:layout_marginTop="325dp"
+					android:layout_marginStart="50dp"
+					android:hint="email"
+					android:inputType="textEmailAddress" />
 
-				<View   android:id="@+id/rectangle_3"
-					android:background="@drawable/rectangle_3_shape"
-					 android:layout_marginStart="75dp"
-					android:layout_marginTop="350dp"
-					android:layout_width="266dp"
-					android:layout_height="50dp" />
 
-				<View   android:id="@+id/rectangle_4"
-					android:background="@drawable/rectangle_4_shape"
-					 android:layout_marginStart="75dp"
+				<EditText
+					android:id="@+id/phoneEditText"
+					android:layout_width="274dp"
+					android:layout_height="45dp"
+					android:layout_marginTop="371dp"
+					android:layout_marginStart="50dp"
+					android:hint="phone"
+					android:inputType="textPhonetic" />
+
+				<EditText
+					android:id="@+id/newPasswordEditText"
+					android:layout_width="274dp"
+					android:layout_height="45dp"
 					android:layout_marginTop="420dp"
-					android:layout_width="266dp"
-					android:layout_height="50dp" />
+					android:layout_marginStart="50dp"
+					android:hint="new password"
+					android:inputType="textPassword" />
 
-				<View   android:id="@+id/rectangle_5"
-					android:background="@drawable/rectangle_5_shape"
-					 android:layout_marginStart="75dp"
-					android:layout_marginTop="490dp"
-					android:layout_width="266dp"
-					android:layout_height="50dp" />
-
-				<TextView android:id="@+id/email"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="285dp"
-					android:layout_width="262dp"
+				<EditText
+					android:id="@+id/confirmPasswordEditText"
+					android:layout_width="274dp"
 					android:layout_height="45dp"
-					android:text="@string/email_string"
-					 />
+					android:layout_marginTop="465dp"
+					android:layout_marginStart="50dp"
+					android:hint="confirm Password"
+					android:inputType="textPassword" />
 
-				<TextView android:id="@+id/phone_number"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="360dp"
-					android:layout_width="262dp"
-					android:layout_height="45dp"
-					android:text="@string/phone_number_string"
-					 />
 
-				<TextView android:id="@+id/new_password"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="430dp"
-					android:layout_width="262dp"
-					android:layout_height="45dp"
-					android:text="@string/new_password_string"
-					 />
-
-				<TextView android:id="@+id/confirm_password"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="495dp"
-					android:layout_width="262dp"
-					android:layout_height="45dp"
-					android:text="@string/confirm_password_string"
-					 />
-
-				<View   android:id="@+id/_bg__register_form_ek2"
-					android:background="@drawable/rectangle_6_shape"
-					android:layout_marginStart="115dp"
-					android:layout_marginTop="570dp"
-					android:layout_width="185dp"
-					android:layout_height="50dp" />
-				<View   android:id="@+id/rectangle_6"
-					android:background="@drawable/rectangle_6_shape"
-					android:layout_marginStart="115dp"
-					android:layout_marginTop="570dp"
-					android:layout_width="185dp"
-					android:layout_height="50dp" />
-				<TextView android:id="@+id/register"
+				<Button android:id="@+id/register"
 					android:textStyle="bold"
 					android:textSize="22sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="168dp"
-					android:layout_marginTop="580dp"
-					android:layout_width="262dp"
-					android:layout_height="45dp"
+					android:layout_marginLeft="65dp"
+					android:layout_marginTop="550dp"
+					android:layout_width="232dp"
+					android:layout_height="65dp"
 					android:text="@string/register_string"
 					 />
 
-				<TextView android:id="@+id/register_ek1"
-					android:textSize="32sp"
-					android:textColor="@color/rectangle_1_color"
-					android:layout_marginLeft="146dp"
-					android:layout_marginTop="148dp"
-					android:layout_width="154dp"
-					android:layout_height="63dp"
-					android:text="@string/register_ek1_string"
-					 />
 
 				<TextView android:id="@+id/already_have_an_account_login"
 					android:textStyle="bold"
 					android:textSize="18sp"
 					android:textColor="@color/already_have_an_account_login_color"
 					android:layout_marginLeft="80dp"
-					android:layout_marginTop="650dp"
+					android:layout_marginTop="630dp"
 					android:layout_width="310dp"
 					android:layout_height="45dp"
 					android:text="@string/already_have_an_account_login_string"
 					 />
 
-				<TextView android:id="@+id/name"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/email_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="215dp"
-					android:layout_width="262dp"
+				<EditText
+					android:id="@+id/nameEditText"
+					android:layout_width="274dp"
 					android:layout_height="45dp"
-					android:text="@string/name_string"
-					 />
+					android:layout_marginStart="50dp"
+					android:layout_marginTop="280dp"
+					android:hint="name"
+					android:inputType="textPersonName" />
+
 
 				<ImageView android:id="@+id/pngtree_keep_our_city_clean_png_png_image_6099580_2"
 					android:src="@drawable/pngtree_keep_our_city_clean_png_png_image_6099580_1"
-					android:contentDescription="pngtree_keep_our_city_clean_png_png_image_6099580_2"
-					 android:layout_marginStart="130dp"
-					android:layout_marginTop="9dp"
+					 android:layout_marginStart="120dp"
+					android:layout_marginTop="100dp"
 					android:layout_width="140dp"
 					android:layout_height="140dp" />
 
 			</RelativeLayout>
-		</RelativeLayout>
-
-	</ScrollView>
-</HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

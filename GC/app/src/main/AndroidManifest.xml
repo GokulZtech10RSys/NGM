@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,14 +21,34 @@
         android:theme="@style/Theme.GC"
         tools:targetApi="31">
         <activity
+            android:name=".DasfactivityMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".email_Activity"
+            android:exported="false" />
+        <activity
             android:name=".getstart_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login_activity"></activity>
+        <activity android:name=".login_activity" />
+        <activity android:name=".register_form_activity" />
+        <activity android:name=".home_page_activity" />
+        <activity android:name=".scrap_rates_activity" />
+        <activity android:name=".setting_activity" />
+        <activity android:name=".prefile_activity" />
+        <activity android:name=".trash_box_activity" />
+        <activity
+            android:name=".prefile_activity"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".drop_your_trash_activity" />
     </application>
 
 </manifest>

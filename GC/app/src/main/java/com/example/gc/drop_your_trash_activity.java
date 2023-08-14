@@ -18,6 +18,7 @@
 package com.example.gc;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -35,12 +36,10 @@ public class drop_your_trash_activity extends Activity {
 	private ImageView images_removebg_preview_1;
 	private ImageView arrow_1;
 	private TextView drop_your_trash_ek3;
-	private ImageView home_outline_removebg_preview_1;
-	private ImageView settings_2_outline_removebg_preview_1;
-	private View ellipse_2;
-	private ImageView people_outline_removebg_preview_1;
-	private ImageView search_outline_removebg_preview_1;
-	private ImageView grid_outline_removebg_preview_1;
+	private ImageView home;
+	private ImageView settings;
+	private ImageView people;
+	private ImageView grid;
 	private TextView _1_attai_company;
 	private TextView recycling_center_in_chennai__tamil_nadu;
 	private TextView address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058;
@@ -63,12 +62,12 @@ public class drop_your_trash_activity extends Activity {
 		images_removebg_preview_1 = (ImageView) findViewById(R.id.images_removebg_preview_1);
 		arrow_1 = (ImageView) findViewById(R.id.arrow_1);
 		drop_your_trash_ek3 = (TextView) findViewById(R.id.drop_your_trash_ek3);
-		home_outline_removebg_preview_1 = (ImageView) findViewById(R.id.home_outline_removebg_preview_1);
-		settings_2_outline_removebg_preview_1 = (ImageView) findViewById(R.id.settings_2_outline_removebg_preview_1);
-		ellipse_2 = (View) findViewById(R.id.ellipse_2);
-		people_outline_removebg_preview_1 = (ImageView) findViewById(R.id.people_outline_removebg_preview_1);
-		search_outline_removebg_preview_1 = (ImageView) findViewById(R.id.search_outline_removebg_preview_1);
-		grid_outline_removebg_preview_1 = (ImageView) findViewById(R.id.grid_outline_removebg_preview_1);
+
+		home = (ImageView) findViewById(R.id.home);
+		settings = (ImageView) findViewById(R.id.settings);
+		people = (ImageView) findViewById(R.id.people);
+		grid = (ImageView) findViewById(R.id.grid);
+
 		_1_attai_company = (TextView) findViewById(R.id._1_attai_company);
 		recycling_center_in_chennai__tamil_nadu = (TextView) findViewById(R.id.recycling_center_in_chennai__tamil_nadu);
 		address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058 = (TextView) findViewById(R.id.address__28__deva_raja_st__tambaram_west__tambaram__chennai__tamil_nadu_600045__phone__094441_33058);
@@ -79,6 +78,40 @@ public class drop_your_trash_activity extends Activity {
 	
 		
 		//custom code goes here
+
+		people.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(drop_your_trash_activity.this, prefile_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
+
+		settings.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(drop_your_trash_activity.this, setting_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
+
+
+		home.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(drop_your_trash_activity.this, home_page_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
+
+
+		grid.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// Code to navigate to the next activity or fragment
+				Intent intent = new Intent(drop_your_trash_activity.this, scrap_rates_activity.class); // Change to your next activity
+				startActivity(intent);
+			}
+		});
 	
 	}
 }
