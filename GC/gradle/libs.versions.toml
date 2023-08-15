@@ -29,6 +29,12 @@ ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
 volley = { group = "com.android.volley", name = "volley", version = "1.2.1" }
+retrofit = { group = "at.stefangeyer.challonge.rest", name = "retrofit", version = "2.1.0" }
+gson = { group = "com.google.code.gson", name = "gson", version = "2.10.1" }
+converter-gson = { group = "au.com.gridstone.rxstore", name = "converter-gson", version = "6.0.2" }
+logging-interceptor = { group = "com.anbillon.routine", name = "logging-interceptor", version = "1.1.1" }
+okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "5.0.0-alpha.11" }
+retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version = "2.9.0" }
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "agp" }

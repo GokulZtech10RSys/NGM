@@ -78,12 +78,13 @@
 					android:text="@string/forget_password_string"
 					 />
 
-				<ImageView android:id="@+id/pngtree_keep_our_city_clean_png_png_image_6099580_1"
-					android:src="@drawable/pngtree_keep_our_city_clean_png_png_image_6099580_1"
-					 android:layout_marginStart="100dp"
-					android:layout_marginTop="98dp"
+				<ImageView
+					android:id="@+id/pngtree_keep_our_city_clean_png_png_image_6099580_1"
 					android:layout_width="154dp"
-					android:layout_height="154dp" />
+					android:layout_height="154dp"
+					android:layout_marginStart="100dp"
+					android:layout_marginTop="98dp"
+					android:src="@drawable/pngtree_keep_our_city_clean_png_png_image_6099580_1" />
 
 			</RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
